@@ -1,0 +1,190 @@
+h1 {
+    color: red;
+}
+body {
+    background-color: gainsboro;
+}
+.meta-grid {
+    margin-left: 350px;
+    margin-top: 200px;
+    width: 88%;
+  
+    padding: 10px;
+  
+}
+.left-container {
+    float: left;
+    margin-left:-3.75%;
+    width: 900px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.add-goods-pan input {
+    padding: 6px;
+    width: 82.2%;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    
+    
+}
+#add-button {
+    background-color: blue;
+    color: white;
+    margin-left: -5px;
+    border-color: blue;
+    padding: 5px;
+    min-width: 16%;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: 14px;
+    font-weight: solid;
+    opacity: 0.7;
+}
+#add-button:hover {
+    background-color: blue;
+    opacity: 1;
+}
+.right-container {
+    float: left;
+    margin-left: 25px;
+    background-color: white;
+    border-radius: 10px;
+    margin-right:10%
+    
+}
+.items-list {
+    padding: 10px;
+    border-top: 1px solid gainsboro;
+}
+.input-with-button {
+    padding: 15px;
+}
+.title {
+    float: left;
+    padding: 5px;
+}
+.chosen-items-number {
+    float: left;
+    text-align: center;
+    border-radius: 5px;
+    width: 12.5%;
+    height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: lavender;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+    font-size:14px;
+}
+.minus-button {
+    float: left;
+    color: white;
+    background-color: #CC0000;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 0px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.minus-button:hover {
+    background-color: crimson;
+}
+.item-container {
+    float: left;
+    width: 335px;
+    padding 5px;
+    text-align: center;
+    margin: 0 auto;
+}
+.item-title {
+    width: 40%;
+    float: left;
+    padding: 3px 0 0 0;
+}
+.plus-button {
+    float: left;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    background-color: lime;
+    border-radius: 50%;
+    border: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.plus-button:hover {
+    background-color: green;
+}
+.buy-item-button {
+    width: 85px;
+    height: 30px;
+    background-color:		#F5F5F5;
+    border: 5px;
+    border-radius: 5px;
+    position:relative;
+    left:8.5%;
+    
+    
+}
+.buy-item-button:hover {
+    background-color: gainsboro;
+}
+.delete-item-button {
+    width: 30px;
+    height: 30px;
+    background-color: crimson;
+    color: white;
+    border: 5px;
+    border-radius: 5px;
+    font-size: 10px;
+    font-weight: bold;
+   border:5 px;
+    float:right;
+}
+.delete-item-button:hover {
+    background-color: firebrick;
+}
+.title {
+    font-weight: bold;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.summary-block {
+    min-width: 100%;
+    min-height: 30px;
+    padding: 5px;
+    border-top: 1px solid #E0E0E0;
+    display: inline-block;
+}
+
+.summary-goods {
+    align-content: center;
+    margin-top: 100px;
+    float: left;
+    margin: 0 5px 5px;
+    background-color: lavender;
+    text-align: center;
+    border:10px;
+    border-radius: 3px;
+    padding: 8px 5px 5px 5px;
+}
+.summary-goods-number {
+    float: right;
+    border-radius: 10px;
+    background-color: darkorange;
+    color: #ffffff;
+    font-size: 14px;
+    margin: -3px 0 0 5px;
+    min-width: 15px;
+    min-height: 15px;
+    padding: 4px 0 0 0;
+    text-align: center;
+}
+.miscellaneous{ min-width: 100%;
+    min-height: 30px;
+    padding: 5px;
+    border-top: 1px solid #E0E0E0;
+    display: inline-block;
+}
